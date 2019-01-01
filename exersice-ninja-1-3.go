@@ -12,14 +12,14 @@ package main
 
 import "fmt"
 
-var x int = 42
-var y string = "James Bond"
-var z bool = true
+var x int
+var y string
+var z bool
 
 func main3() {
-	// x = 42
-	// y = "James Bond"
-	// z = true
+	x = 42
+	y = "James Bond"
+	z = true
 	s := fmt.Sprintf("%v\t %v\t %v\t", x, y, z)
 	fmt.Println(s)
 }
