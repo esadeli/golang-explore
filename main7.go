@@ -18,7 +18,7 @@ type thing interface {
 	shoutout()
 }
 
-func main() {
+func main7() {
 	defer deferExample()
 	sayHello("Andara")
 	s1 := sayMorning("Gunawan")
