@@ -6,7 +6,7 @@ import (
 
 // var x int
 
-func main() {
+func main8() {
 	a := add()
 	b := add()
 	fmt.Println(a())
